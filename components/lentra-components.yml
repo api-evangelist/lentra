@@ -1,0 +1,28 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.npmjs.com/package/lentra-legos
+note: Lentra publishes no public embedded-components documentation. The single verifiable
+  client-side component surface is the first-party "Lego" web-component library on npm.
+families:
+- name: Lentra Legos
+  kind: web-components
+  technology: Stencil (@stencil/core) — framework-agnostic custom elements
+  loader:
+    registry: npm
+    package: lentra-legos
+    install: npm install lentra-legos
+    version: 0.0.13
+  routing: universal-router
+  state: redux
+  official: true
+  official_evidence: published by amjadg@lentra.ai
+  docs: null
+  status: published-but-unmaintained (last publish 2021-09-21, last registry change 2022-05-07)
+  components: unknown — the package publishes no public component inventory or documentation
+hosted_surfaces:
+- name: Customisable lending journeys
+  description: Lentra markets pre-built, customisable end-customer loan journeys (retail, business,
+    agriculture) embedded into a lender's channels. These are delivered as part of a commercial
+    engagement; no public embed/loader documentation is published.
+  docs: https://lentra.ai/
+  verifiable: false

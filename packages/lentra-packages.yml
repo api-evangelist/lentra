@@ -1,0 +1,41 @@
+generated: '2026-07-19'
+method: searched
+source: https://registry.npmjs.org/-/v1/search?text=lentra
+note: Lentra ships no public API client SDKs. The one first-party public package is a Stencil
+  web-component ("Lego") UI library, catalogued in components/lentra-components.yml. No SDKs
+  pointer is emitted in apis.yml because no API client library exists.
+registries_searched:
+- registry: npm
+  result: 1 first-party package (lentra-legos)
+- registry: pypi
+  result: none
+- registry: maven-central
+  result: none
+- registry: nuget
+  result: none
+- registry: pkg.go.dev
+  result: none
+- registry: rubygems
+  result: none
+- registry: packagist
+  result: none
+- registry: crates.io
+  result: none
+- registry: github
+  result: no api-evangelist-visible Lentra GitHub organization (github.com/lentra and
+    github.com/lentra-ai both 404)
+packages:
+- language: javascript
+  registry: npm
+  name: lentra-legos
+  url: https://www.npmjs.com/package/lentra-legos
+  install: npm install lentra-legos
+  version: 0.0.13
+  published: '2021-09-21'
+  last_modified: '2022-05-07'
+  license: MIT
+  description: Lentra Lego library — Stencil-based web components
+  dependencies: ['@stencil/core', history, redux, universal-router]
+  kind: ui-components
+  official: true
+  official_evidence: published and maintained by amjadg@lentra.ai (lentra.ai corporate domain)

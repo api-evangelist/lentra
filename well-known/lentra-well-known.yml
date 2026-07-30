@@ -1,0 +1,32 @@
+generated: '2026-07-19'
+method: searched
+source: live HTTP probes
+note: No /.well-known/ documents are published. trust.lentra.ai is a single-page app that returns
+  HTTP 200 with text/html for every path (soft-404); those responses were verified by content-type
+  and body inspection and are recorded as soft_404, not as hits. No raw files were saved.
+hosts:
+- host: https://lentra.ai
+  documents:
+  - {path: /.well-known/security.txt, status: 404}
+  - {path: /.well-known/openid-configuration, status: 404}
+  - {path: /.well-known/oauth-authorization-server, status: 404}
+  - {path: /.well-known/api-catalog, status: 404}
+  - {path: /.well-known/ai-plugin.json, status: 404}
+  - {path: /llms.txt, status: 404}
+  - {path: /robots.txt, status: 404}
+- host: https://trust.lentra.ai
+  documents:
+  - {path: /.well-known/security.txt, status: 200, result: soft_404, content_type: text/html}
+  - {path: /.well-known/openid-configuration, status: 200, result: soft_404, content_type: text/html}
+  - {path: /.well-known/oauth-authorization-server, status: 200, result: soft_404, content_type: text/html}
+  - {path: /.well-known/api-catalog, status: 200, result: soft_404, content_type: text/html}
+  - {path: /.well-known/ai-plugin.json, status: 200, result: soft_404, content_type: text/html}
+  - {path: /llms.txt, status: 200, result: soft_404, content_type: text/html}
+- host: https://blog.lentra.ai
+  documents:
+  - {path: /.well-known/security.txt, status: 404}
+  - {path: /.well-known/openid-configuration, status: 404}
+  - {path: /.well-known/api-catalog, status: 404}
+  - {path: /llms.txt, status: 200, result: soft_404, content_type: text/html}
+  - {path: /rss/, status: 200, result: hit, content_type: application/rss+xml}
+  - {path: /sitemap.xml, status: 200, result: hit}

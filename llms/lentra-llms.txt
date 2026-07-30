@@ -1,0 +1,77 @@
+# Lentra
+
+> Lentra is a Pune, India based cloud-native digital lending platform for banks and NBFCs. It
+> covers loan origination, loan management, credit decisioning, bureau access, KYC/verification
+> and collateral management, packaged as pre-built retail, business and agriculture lending
+> journeys. Lentra sells to financial institutions directly and does NOT operate a public
+> self-service developer portal, publish an open API reference, or ship API client SDKs.
+
+## Status for agents
+
+- No public OpenAPI, AsyncAPI, GraphQL or webhook specification is published.
+- No public API base URL, authentication documentation, sandbox, or API keys.
+- No public changelog, status page, deprecation policy, CLI, or MCP server.
+- API access is obtained through a commercial engagement — start at the website contact/demo flow.
+
+## Company
+
+- [Website](https://www.lentra.ai/): Product and journey overview.
+- [About Us](https://lentra.ai/about-us): Company, architecture and customers.
+- [Careers](https://lentra.ai/careers)
+- [Blog](https://blog.lentra.ai/): News and insights ([RSS](https://blog.lentra.ai/rss/)).
+
+## Products
+
+- [Loan Origination System (GoNoGo)](https://lentra.ai/loan-origination-system)
+- [Loan Management System (1LMS)](https://lentra.ai/loan-management-system)
+- [Lentra MLOps](https://lentra.ai/lentra-MLOps)
+- [Credit Risk](https://lentra.ai/credit-risk)
+- [Credit Bureau Reporting / MultiBureau](https://lentra.ai/credit-bureau-reporting)
+- [GoGetr](https://lentra.ai/gogetr)
+- [Video PD](https://lentra.ai/video-pd)
+- [Video KYC](https://lentra.ai/videokyc)
+- [Collateral Management System](https://lentra.ai/collateral-management-system)
+- [Document Management System](https://lentra.ai/document-management-system)
+- [Verification Management System](https://lentra.ai/verification-management-system)
+- [Co-Lending](https://lentra.ai/co-lending)
+- [Open Credit Enablement Network (OCEN)](https://lentra.ai/open-credit-enablement-network)
+
+## Lending journeys
+
+- Retail: [home](https://lentra.ai/home-loan), [personal](https://lentra.ai/personal-loan),
+  [education](https://lentra.ai/education-loan), [vehicle](https://lentra.ai/vehicle-loan),
+  [auto](https://lentra.ai/auto-loan), [consumer durable](https://lentra.ai/consumer-durable-loan),
+  [digital credit card](https://lentra.ai/digital-credit-card),
+  [loan against property](https://lentra.ai/loan-against-property),
+  [overdraft](https://lentra.ai/overdraft-loan)
+- Business: [business loans](https://lentra.ai/business-loans),
+  [professional loans](https://lentra.ai/professional-loan),
+  [equipment financing](https://lentra.ai/equipment-financing),
+  [supply chain finance](https://lentra.ai/supply-chain-finance),
+  [dealer onboarding](https://lentra.ai/lentra-dealer-onboarding),
+  [embedded finance](https://lentra.ai/embedded-finance)
+- Agriculture: [agri lending](https://lentra.ai/lentra-agri-lending-journey),
+  [KCC](https://lentra.ai/lentra-kcc-journey),
+  [dairy/cattle](https://lentra.ai/lentra-dairy-cattle-loan-journey)
+
+## Trust and compliance
+
+- [Trust Center](https://trust.lentra.ai/): SOC 2 Type II, SOC 3, ISO/IEC 27001 (incl. 2022),
+  ISO/IEC 27017, ISO/IEC 27018, ISO/IEC 27701, ISO 22301:2019, CSA STAR.
+- [CSA STAR registry](https://cloudsecurityalliance.org/star/registry/lentra-ai-pvt-ltd/services/lentra-ai-pvt-ltd/)
+- [Privacy Policy](https://lentra.ai/privacy-policy)
+- [Terms and Conditions](https://lentra.ai/terms-and-conditions)
+
+## Packages
+
+- [lentra-legos](https://www.npmjs.com/package/lentra-legos): first-party Stencil web-component
+  ("Lego") UI library on npm. Not an API client SDK; last published 2021.
+
+## API Evangelist artifacts
+
+- packages/lentra-packages.yml
+- components/lentra-components.yml
+- conformance/lentra-conformance.yml
+- security/lentra-trust-center.yml
+- security/lentra-domain-security.yml
+- well-known/lentra-well-known.yml
