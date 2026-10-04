@@ -56,7 +56,7 @@ tags:
 - Credit
 - Software-as-a-Service
 - India
-- Financial-Services
+- Financial Services
 tags_raw:
 - Company
 - Fintech
@@ -67,6 +67,7 @@ tags_raw:
 - SaaS
 - India
 - Financial Services
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
