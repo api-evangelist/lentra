@@ -64,40 +64,84 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Lentra is a Pune, India based cloud-native digital lending platform for banks and non-banking
-financial companies. Built on a microservices architecture with customisable customer journeys, the
-platform spans loan origination (GoNoGo), loan management (1LMS), data and machine learning
-operations (Lentra MLOps), and data transfer (TransferX), alongside standalone modules for
-MultiBureau credit bureau access, identity and video KYC verification, collateral management,
-document management, co-lending and bank reconciliation. Lentra packages these into pre-built
-retail, business and agriculture lending journeys, delivered SaaS on a per-user or per-transaction
-basis to institutions including HDFC Bank, State Bank of India, IDFC and TVS Credit.
+Lentra is a Pune, India based cloud-native digital lending platform for banks and non-banking financial companies. Built on a microservices architecture with customisable customer journeys, the platform spans loan origination (GoNoGo), loan management (1LMS), data and machine learning operations (Lentra MLOps), and data transfer (TransferX), alongside standalone modules for MultiBureau credit bureau access, identity and video KYC verification, collateral management, document management, co-lending and bank reconciliation. Lentra packages these into pre-built retail, business and agriculture lending journeys - home, personal, education, vehicle, consumer durable and credit card loans, equipment finance, working capital, supply chain finance and agri/KCC lending - delivered SaaS on a per-user or per-transaction basis to institutions including HDFC Bank, State Bank of India, IDFC and TVS Credit. The company is an Open Credit Enablement Network (OCEN) participant and maintains a public trust center covering SOC 2 Type II, SOC 3, ISO 27001:2022, ISO 27017, ISO 27018, ISO 27701, ISO 22301:2019 and CSA STAR. Lentra sells to enterprises directly; it does not operate a public self-service developer portal or publish an open API reference.
 
-Backed by: bessemer-venture-partners — https://www.lentra.ai/
+**Areas:** Company · Fintech · Lending · Loan Origination · Banking · Credit · Software-as-a-Service · India · Financial Services
 
-## API surface
+## Lentra on APIs.io
 
-Lentra sells to financial institutions directly. As of this enrichment pass it publishes **no
-public developer portal, API reference, OpenAPI/AsyncAPI specification, sandbox, status page,
-changelog, CLI, or MCP server**. `https://lentra.ai/docs` resolves to the marketing homepage, and
-no `docs.`/`developer.`/`api.` subdomain resolves. API access is obtained through a commercial
-engagement.
+Everything profiled for Lentra is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/lentra/](https://apis.io/providers/lentra/)** — or go straight to one of the APIs or properties below.
 
-## Artifacts
+### Published properties
 
-| Artifact | File | Method |
-|---|---|---|
-| Packages | `packages/lentra-packages.yml` | searched |
-| Components | `components/lentra-components.yml` | searched |
-| Conformance | `conformance/lentra-conformance.yml` | searched |
-| Trust center | `security/lentra-trust-center.yml` | searched |
-| Domain security | `security/lentra-domain-security.yml` | probed |
-| Well-known | `well-known/lentra-well-known.yml` | searched |
-| llms.txt | `llms/lentra-llms.txt` | generated |
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## Trust and compliance
+#### Security (2)
 
-[trust.lentra.ai](https://trust.lentra.ai/) publishes SOC 2 Type II, SOC 3, ISO/IEC 27001
-(including 27001:2022), ISO/IEC 27017, ISO/IEC 27018, ISO/IEC 27701, ISO 22301:2019 and CSA STAR
-(with a [CSA STAR registry entry](https://cloudsecurityalliance.org/star/registry/lentra-ai-pvt-ltd/services/lentra-ai-pvt-ltd/)).
-No vulnerability disclosure policy, `security.txt`, or bug bounty program was found.
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Lentra Domain Security](https://apis.io/security/lentra/lentra-domain-security/)
+- [Lentra Trust Center](https://apis.io/security/lentra/lentra-trust-center/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.lentra.ai/)
+- [Blog](https://blog.lentra.ai/)
+- [Compliance](https://trust.lentra.ai/)
+- [Terms of service](https://lentra.ai/terms-and-conditions)
+- [Privacy policy](https://lentra.ai/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 13.2** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 28.9 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 15.0** — Banking & Open Finance
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/lentra/](https://apis.io/providers/lentra/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Lentra: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/lentra/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
